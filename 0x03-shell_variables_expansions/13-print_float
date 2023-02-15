@@ -1,2 +1,2 @@
 #!/bin/bash
-printif "%x\n" $NUM
+printif "%0.2f\n" $NUiM
