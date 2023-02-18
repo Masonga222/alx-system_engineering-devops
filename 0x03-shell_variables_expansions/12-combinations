@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo {
+=======
+echo {a..z}{a..z}| tr ' ' '\n'| grep -v oo
+>>>>>>> 1245164f408367622e6d08b993445b7ef4b3a622
