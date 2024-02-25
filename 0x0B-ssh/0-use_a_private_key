@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Server details
+#server_ip="100.26.236.102"
+#user="ubuntu"
+#private_key="~/.ssh/school"
+
+# SSH connection using single-character flags
+ssh -i ~/.ssh/school ubuntu@100.26.236.102
