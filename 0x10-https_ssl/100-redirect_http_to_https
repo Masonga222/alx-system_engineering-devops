@@ -56,8 +56,8 @@ frontend www-https
 backend www-backend
    balance roundrobin
    redirect scheme https code 301 if !{ ssl_fc }
-   server 240202-web-01 35.153.16.232:80 check
-   server 240202-web-02 100.26.57.232:80 check
+   server 240202-web-01 100.26.236.102.232:80 check
+   server 240202-web-02 75.101.254.197.232:80 check
 
 backend letsencrypt-backend
    server letsencrypt 127.0.0.1:54321
